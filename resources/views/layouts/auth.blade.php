@@ -15,13 +15,13 @@
         <link href="{{asset('master/plugins/fontawesome/css/all.min.css')}}" rel="stylesheet">
         <link href="{{asset('master/plugins/typicons/src/typicons.min.css')}}" rel="stylesheet">
         <link href="{{asset('master/plugins/themify-icons/themify-icons.min.css')}}" rel="stylesheet">
-        <!--Third party Styles(used by this page)--> 
+        <!--Third party Styles(used by this page)-->
 
         <!--Start Your Custom Style Now-->
         <link href="{{asset('master/dist/css/style.css')}}" rel="stylesheet">
         <style>
             .main-background {
-                background-image: url('{{asset("images/main-bg.jpg")}}');
+                {{--background-image: url('{{asset("images/main-bg.jpg")}}');--}}
                 background-size: cover;
             }
             .panel {
